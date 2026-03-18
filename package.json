@@ -1,0 +1,23 @@
+{
+  "name": "ssd-evaluator-worker",
+  "version": "1.0.0",
+  "description": "SSD competition evaluation worker — polls Firestore, runs 3-agent LLM pipeline",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "NODE_ENV=production node dist/main.js",
+    "dev": "ts-node src/main.ts",
+    "test:vertex": "ts-node --project tsconfig.test.json test/simpleVertex.ts"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0",
+    "@google-cloud/vertexai": "^1.9.3",
+    "dotenv": "^17.3.1",
+    "firebase-admin": "^12.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
