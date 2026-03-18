@@ -43,7 +43,7 @@ Thank you for attending the SSD Workshop! This repository contains the sample co
 
 ### 🖥️ Deep Dive: The `nim_app/` Folder (Standalone Deployment)
 
-![NIM Architecture](./nim_arch.png)
+![NIM Architecture](./nim.png)
 
 The `nim_app/` directory is designed to work completely independently from the core local application. It encapsulates the production infrastructure code intended for scaling (e.g., in an HPC cluster or cloud environment using NVIDIA Inference Microservices - NIM). 
 
