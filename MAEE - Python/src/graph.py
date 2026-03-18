@@ -86,7 +86,7 @@ def evaluate_design(state: EvaluationState) -> dict:
        - Data Management (20 pts): Is the choice of SQL/NoSQL appropriate? Is caching utilized properly? Is data consistency addressed?
        - Overall Suitability (20 pts): Does the architecture directly solve the user's specific "Problem Statement"?
        
-    2. Identify Critical Weaknesses & Edge Cases: Formulate 20 hyper-specific, realistic production edge cases that this specific architecture fails to handle correctly. (e.g., "Cache stampede on the user-metadata Redis cluster upon regional failover").
+    2. Identify Critical Weaknesses & Edge Cases: Formulate 10 hyper-specific, realistic production edge cases that this specific architecture fails to handle correctly. (e.g., "Cache stampede on the user-metadata Redis cluster upon regional failover").
 
     CRITICAL RULES:
     - Keep the `feedback` string concise (under 4 sentences) to prevent JSON cutoffs.
