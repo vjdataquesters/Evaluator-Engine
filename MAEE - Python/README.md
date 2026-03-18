@@ -3,7 +3,7 @@
 Thank you for attending the SSD Workshop! This repository contains the sample code and resources for our session. Here you'll find everything you need to set up, run, and understand the project architecture.
 
 > [!NOTE]
-> We initially designed our system to deploy this in our college HPC lab, but due to less time we moved to a cloud approach.
+> We initially designed our system to deploy this in our college HPC lab, but due to time constraints we moved to a cloud approach.
 
 ## 🏗 Architecture Diagram
 
