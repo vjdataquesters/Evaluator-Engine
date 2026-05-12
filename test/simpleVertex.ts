@@ -41,7 +41,7 @@ export const generateResponse = async (prompt: string): Promise<string> => {
         },
     });
 
-    const imageUri = "gs://vnrvjdq.firebasestorage.app/submissions/zoro.jpg";
+    const imageUri = "gs://vjdqprod.firebasestorage.app/submissions/zoro.jpg";
     const result = await model.generateContent({
         contents: [
             {

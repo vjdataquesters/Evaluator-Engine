@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
-    "start": "NODE_ENV=production node dist/main.js",
+    "start": "node dist/main.js",
     "dev": "ts-node src/main.ts",
     "test:vertex": "ts-node --project tsconfig.test.json test/simpleVertex.ts"
   },
